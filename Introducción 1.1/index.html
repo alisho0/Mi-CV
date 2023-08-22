@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mi</title>
+    <style>
+        label, input {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Este soy yo</h1>
+    <img width="140" src="ale.jpg" alt="alejandro-imagen">
+    <hr>
+    <h2>Datos sobre mi</h2>
+    <ul>
+        <li>Edad: 18 años</li>
+        <li>Nombre: Rea Gabriel Alejandro</li>
+        <li>Mail: alejorea2015@gmail.com</li>
+    </ul>
+    <hr>
+    <h2>Descripción sobre mi</h2>
+    <p>Soy un muchacho que le interesa programación, pero creo que la mayoría que está en el curso le llama la atención. Puedo decir que me gusta mucho viciar con los jueguitos, me encanta jugar solo y con mis amigos. Me encanta charlar y debatir, para poder ver diferentes puntos de vistas.</p>
+
+    <form>
+        <fieldset>
+            <legend>Contáctame</legend>
+
+            <label for="name">Nombre</label>
+            <input id="name" type="text" placeholder="Tu Nombre" required>
+
+            <label for="nro">Teléfono</label>
+            <input id="nro" type="number" min="0" placeholder="Tu Número de Teléfono" required>
+
+            <label for="mail">Email</label>
+            <input id="mail" type="email" placeholder="Tu Correo" required>
+
+            <label for="msj">Mensaje</label>
+            <textarea id="msj" cols="30" rows="5" placeholder="Escribe tu mensaje" required></textarea>
+
+            <input type="submit" placeholder="Enviar">
+            <input type="reset" placeholder="Reestablecer">
+        </fieldset>
+
+    </form>
+</body>
+</html>
